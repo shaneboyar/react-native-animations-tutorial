@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Animated, Button, StyleSheet, Easing, View } from "react-native";
 import jake from "./jake.png";
 
-const AnimatedThing = Animated.createAnimatedComponent;
-
 export default class App extends Component {
   constructor(props) {
     super(props);
